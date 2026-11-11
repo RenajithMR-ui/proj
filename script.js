@@ -36,7 +36,7 @@ function findvalue(){
     if (val=="sel"){
         document.getElementById("error").innerHTML="*Please select an option";
     }
-    if (val=="cust.html"){
+    else if (val=="cust.html"){
         loadpage(val);
         loadpage_cust("customers.html");
     } 
